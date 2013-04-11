@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html><head>
+<html>
+<head>
 <script src="teaser/js/jquery-1.9.1.min.js" />
 <script type="text/javascript" src="teaser/js/jPlayer/jquery.jplayer.min.js"></script>
 
@@ -19,7 +20,10 @@
 
 		   $(".text").fadeOut();
 		   $(".gif1").fadeOut();
-		   $(".gif2").fadeOut();
+		   $(".gif2").fadeOut();		   
+		   $(".gif3").fadeOut();
+		   $(".gif4").fadeOut();		   
+		   $(".gif5").fadeOut();		   
 		   
 		   $(".hight").mouseenter(function(){
 			   $(".hight").animate({ opacity:'0.5'});
@@ -40,8 +44,12 @@
 			   	$(".pic5").css("top", "55%");
 				   $(".pic6").css("top", "55%");
 				   			   
-			   	$(".gif1").css("top", "10%");
-			   	
+			   	$(".gif1").css("top", "10%");			   	
+			   	$(".gif2").css("top", "55%");
+	   	   	$(".gif3").css("top", "55%");
+	   	   	$(".gif4").css("top", "10%");	   	   	
+	   	   	$(".gif5").css("top", "55%");
+			
 			      $(".pic1").delay(1100).slideDown("slow");				 			    
 			      $(".pic2").delay(1900).slideDown("slow");				 			    
 			      $(".pic3").delay(2700).slideDown("slow");				 			    
@@ -51,11 +59,13 @@
 				   $(".text").delay(5300).fadeIn(2000).delay(1500).fadeOut(2000);
 				   
 				   
-				   $(".gif1").delay(11000).fadeIn(500).animate({
-				      left:'300px',
-				      height:'392px',
-				      width:'700px'
-				    }, 1000).fadeOut(500);
+				   $(".gif1").delay(11400).fadeIn(1000).delay(600).fadeOut(1000);				     
+					$(".gif2").delay(12500).fadeIn(1000).delay(600).fadeOut(1000);				  
+				   $(".gif3").delay(13600).fadeIn(1000).delay(600).fadeOut(1000);
+				   $(".gif4").delay(14700).fadeIn(1000).delay(600).fadeOut(1000);				     
+				   $(".gif5").delay(15800).fadeIn(1000).delay(600).fadeOut(1000);				     
+				  
+				   
 			  	});
 			  	 $("a").click(function(){
 			    
@@ -76,6 +86,9 @@
 		   <div class="gif1"></div>
 		   <div class="gif2"></div>
 		   <div class="gif3"></div>
+		   <div class="gif4"></div>
+		   <div class="gif5"></div>
+		   	
 		   	
 	 	<div class="cont">   
 	 		<div class="hight"></div>

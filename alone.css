@@ -124,7 +124,7 @@
 	background-image: url(teaser/gif/kevin1.gif);
 	position: absolute;
 	top: -55%;
-	left: 20%;
+	left: 5%;
 		
 	background-size: 100% 100%; 
    -webkit-background-size: 100% 100%;
@@ -140,18 +140,40 @@
 	background-image: url(teaser/gif/soo1.gif);
 	position: absolute;
 	top: -55%;
-	left: 80%;
-	
-	background-size: 100% 100%; 
-   -webkit-background-size: 100% 100%;
-	-moz-background-size: 100% 100%;
-   -o-background-size: 100% 100%;
-   background-repeat: no-repeat;
-    	
+	left: 55%;
+		
 	}
 
 
+.gif3 {
+	width: 500px;
+	height: 267px;
+	background-image: url(teaser/gif/all1.gif);
+	position: absolute;
+	top: -55%;
+	left: 5%;
+		
+	}
 
+.gif4 {
+	width: 500px;
+	height: 281px;
+	background-image: url(teaser/gif/all2.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+
+.gif5 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin2.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
 
 
 /*--Extra--*/
