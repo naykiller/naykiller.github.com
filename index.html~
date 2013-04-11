@@ -29,7 +29,7 @@
 			  });  
 			  	$("button").click(function(){
 					$("body").addClass("bg");
-					$(".hight").animate({top:'-320px'});					
+					$(".hight").animate({top:'-300px'});					
 					$(".rol").animate({left:'-200px'});
 					$(".continue").animate({left:'-200px'});					 			    
    
