@@ -165,7 +165,58 @@
 		
 	}
 
-.gif5 {
+.gif {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin2.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+	.gif6 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+	.gif7 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+	.gif8 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+	.gif9 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/kevin.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+	
+.gif10 {
 	width: 500px;
 	height: 278px;
 	background-image: url(teaser/gif/kevin2.gif);
