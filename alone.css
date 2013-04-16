@@ -226,6 +226,61 @@
 		
 	}
 
+/* -- quarta parte -- */
+
+.pic1_2 {
+	width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena1.png);
+	position: absolute;
+	top: -55%;
+	left: 15%;
+	}
+
+.pic2_2 {
+    width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena11.jpg);
+	position: absolute;
+	top: -55%;
+	left: 32%;
+  }
+  
+.pic3_2 {
+	width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena10.png);
+	position: absolute;
+	top: -55%;
+	left: 49%;
+	}
+
+.pic4_2 {
+	width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena7.png);
+	position: absolute;
+	top: -55%;
+	left: 66%;
+	}
+
+.pic5_2 {
+	width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena3.png);
+	position: absolute;
+	top: -55%;
+	left: 32%;
+	}
+
+.pic6_2 {
+	width: 200px;
+	height: 250px;
+	background-image: url(teaser/cenas/cena9.png);
+	position: absolute;
+	top: -55%;
+	left: 49%;
+	}
 
 /*--Extra--*/
 .bg {
