@@ -165,66 +165,6 @@
 		
 	}
 
-.gif {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin2.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
-	
-	.gif6 {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
-	
-	.gif7 {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
-	
-	.gif8 {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
-	
-	.gif9 {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
-	
-	
-.gif10 {
-	width: 500px;
-	height: 278px;
-	background-image: url(teaser/gif/kevin2.gif);
-	position: absolute;
-	top: -55%;
-	left: 55%;
-		
-	}
 
 /* -- quarta parte -- */
 
@@ -249,7 +189,7 @@
 .pic3_2 {
 	width: 200px;
 	height: 250px;
-	background-image: url(teaser/cenas/cena10.png);
+	background-image: url(teaser/cenas/cena10.jpg);
 	position: absolute;
 	top: -55%;
 	left: 49%;
@@ -282,10 +222,130 @@
 	left: 49%;
 	}
 
+
+.pic7_2 {
+	width: 1240px;
+	height: 680px;
+	background-image: url(teaser/cenas/cena5.png);
+	position: absolute;
+	top: -500%;
+	left: 50%;
+    margin-left: -620px;
+    margin-top: -340px;
+	}
+
+.pic8_2 {
+	width: 1240px;
+	height: 680px;
+	background-image: url(teaser/cenas/cena4.png);
+	position: absolute;
+	top: -500%;
+	left: 50%;
+    margin-left: -620px;
+    margin-top: -340px;
+	}
+
+.pic_back {
+	width: 100%;
+	height: 100%;
+	background-image: url(teaser/background2.jpg);
+	position: absolute;
+	top: -600%;
+	left: 0%;
+    background-repeat: repeat;
+	}
+
+.pic_final {
+	width: 1240px;
+	height: 680px;
+	background-image: url(teaser/cenas/final2.png);
+	position: absolute;
+	top: -500%;
+	left: 0%;
+	}
+
+
+/*--- quinta parte ---*/
+
+
+.gif1_2 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/all4.gif);
+	position: absolute;
+	top: -55%;
+	left: 55%;
+		
+	}
+	
+.gif2_2 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/all3.gif);
+	position: absolute;
+	top: -55%;
+	left: 10%;
+		
+	}
+	
+	.gif3_2 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/eli2.gif);
+	position: absolute;
+	top: -55%;
+	left: 50%;
+		
+	}
+	
+	.gif4_2 {
+	width: 500px;
+	height: 500px;
+	background-image: url(teaser/gif/kevin3.gif);
+	position: absolute;
+	top: -100%;
+	left: 10%;
+		
+	}
+	
+	.gif5_2 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/all7.gif);
+	position: absolute;
+	top: -55%;
+	left: 50%;
+		
+	}
+	
+	
+.gif6_2 {
+	width: 500px;
+	height: 500px;
+	background-image: url(teaser/gif/all6.gif);
+	position: absolute;
+	margin-left: -251px;
+	margin-right: -250px;
+	top: -100%;
+	left: 50%;
+		
+}
+.gif7_2 {
+	width: 500px;
+	height: 278px;
+	background-image: url(teaser/gif/all5.gif);
+	position: absolute;
+	margin-left: -251px;
+	margin-right: -250px;
+	top: -55%;
+	left: 50%;
+
+	}
+
 /*--Extra--*/
 .bg {
 	 background-image: url(teaser/background2.jpg);
-	 background-repeat: repeat-x;
+	 background-repeat: repeat;
 	}	
 .player {
 opacity: 0;	
