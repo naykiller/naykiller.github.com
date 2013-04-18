@@ -30,6 +30,8 @@
 
             $(".pic_back").fadeOut();
             $(".pic_final").fadeOut();
+            $(".text_final").fadeOut();
+            $(".fa").fadeOut();
 
 		   $(".text").fadeOut();
 		   $(".gif1").fadeOut();
@@ -85,16 +87,17 @@
 		   	    	$(".gif1_2").css("top", "30%");			   	
 				   	$(".gif2_2").css("top", "30%");
 		   	   	    $(".gif3_2").css("top", "5%");
-		   	     	$(".gif4_2").css("top", "40%");	   	   	
+		   	     	$(".gif4_2").css("top", "35%");	   	   	
 		   	    	$(".gif5_2").css("top", "10%");
-		   	    	$(".gif6_2").css({"top":"20%", "margin-left":"-250px", "margin-right":"-250px"});	   	   	
+		   	    	$(".gif6_2").css({"top":"50%", "margin-left":"-250px", "margin-top":"-250px"});	   	   	
 		   	    	$(".gif7_2").css("top", "30%");
 
                     // posicionar imgs part 3
-			   	    $(".pic7_2").css("top", "50%");
-				    $(".pic8_2").css("top", "50%");
+			   	    $(".pic7_2").css("top", "0%");
+				    $(".pic8_2").css("top", "0%");
 				    $(".pic_back").css("top", "0%");
-				    $(".pic_final").css("top", "0%");
+				    $(".pic_final").css("top", "50%");
+				    $(".fa").css("top", "50%");
 
 				      $(".pic1").delay(1100).slideDown("slow");				 			    
 				      $(".pic2").delay(1900).slideDown("slow");				 			    
@@ -130,7 +133,10 @@
 					   $(".gif7_2").delay(22600).fadeIn().delay(300).fadeOut(400);
 					   
 					   $(".pic_back").delay(22900).fadeIn();
-					   $(".pic_final").delay(22901).fadeIn();
+					   $(".pic_final").delay(23501).fadeIn();
+					   $(".hight_mini").delay(23800).animate({top:'25%'}, 800);
+					   $(".text_final").delay(23800).fadeIn(800);
+					   $(".fa").delay(22900).fadeIn();
 
 
 
@@ -159,9 +165,13 @@
 		   <div class="pic7_2"></div>
 		   <div class="pic8_2"></div>
 
+		   
 		   <div class="pic_back"></div>
-		   <div class="pic_final"></div>
-		  	<div class="text">Does it get to see the shape of your fortune right...</div>
+		   <div class="fa"></div>
+		   <div class="pic_final"></div>		   
+		   <div class="hight_mini"></div>
+		   <div class="text">Does it get to see the shape of your fortune right...</div>
+	       <div class="text_final">SuperCon '13 ~ recife</div>
 		  	
 		   <div class="gif1"></div>
 		   <div class="gif2"></div>

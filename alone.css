@@ -198,7 +198,7 @@
 .pic4_2 {
 	width: 200px;
 	height: 250px;
-	background-image: url(teaser/cenas/cena7.png);
+	background-image: url(teaser/cenas/cena7.jpg);
 	position: absolute;
 	top: -55%;
 	left: 66%;
@@ -225,43 +225,23 @@
 
 .pic7_2 {
 	width: 1240px;
-	height: 680px;
+	height: 100%;
 	background-image: url(teaser/cenas/cena5.png);
 	position: absolute;
 	top: -500%;
 	left: 50%;
     margin-left: -620px;
-    margin-top: -340px;
 	}
 
 .pic8_2 {
 	width: 1240px;
-	height: 680px;
+	height: 100%;
 	background-image: url(teaser/cenas/cena4.png);
 	position: absolute;
 	top: -500%;
 	left: 50%;
     margin-left: -620px;
-    margin-top: -340px;
-	}
-
-.pic_back {
-	width: 100%;
-	height: 100%;
-	background-image: url(teaser/background2.jpg);
-	position: absolute;
-	top: -600%;
-	left: 0%;
-    background-repeat: repeat;
-	}
-
-.pic_final {
-	width: 1240px;
-	height: 680px;
-	background-image: url(teaser/cenas/final2.png);
-	position: absolute;
-	top: -500%;
-	left: 0%;
+    /*margin-top: -340px;*/
 	}
 
 
@@ -300,7 +280,7 @@
 	
 	.gif4_2 {
 	width: 500px;
-	height: 500px;
+	height: 400px;
 	background-image: url(teaser/gif/kevin3.gif);
 	position: absolute;
 	top: -100%;
@@ -340,6 +320,62 @@
 	top: -55%;
 	left: 50%;
 
+	}
+
+	/* --- sexta parte --- */
+
+.pic_back {
+	width: 100%;
+	height: 100%;
+	background-image: url(teaser/background2.jpg);
+	position: absolute;
+	top: -600%;
+	left: 0%;
+    background-repeat: repeat;
+	}
+
+.pic_final {
+	width: 1240px;
+	height: 600px;
+	background-image: url(teaser/cenas/final2.png);
+	position: absolute;
+	top: -900%;
+	left: 50%;
+	margin-left: -620px;
+    margin-top: -300px;
+	}
+
+.hight_mini {
+	width: 300px;
+	height: 188px;
+	background-image: url(teaser/halone3_mini.png);
+	position: absolute;
+	top: -20%;
+	left: 80%;
+	margin-left: -94px;
+	margin-top: -150px;
+}
+
+.fa {
+	width: 1240px;
+	height: 600px;
+	background-image: url(teaser/cenas/last.png);
+	position: absolute;
+	top: -50%;
+	left: 50%;
+	margin-left: -620px;
+	margin-top: -300px;
+}
+
+
+.text_final {
+	font-size: 40px;
+	opacity: 0.6;
+	color: white;
+	font-family: defaultFont;
+	position: absolute;
+	top: 90%;
+	left: 5%;	
 	}
 
 /*--Extra--*/
